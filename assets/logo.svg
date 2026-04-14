@@ -1,49 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 100" fill="none">
-  <!-- Geometric globe icon -->
-  <g transform="translate(10, 8)">
-    <!-- Outer circle -->
-    <circle cx="40" cy="38" r="30" stroke="#1e293b" stroke-width="1.6" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 90" fill="none">
 
-    <!-- Internal triangular mesh lines -->
-    <line x1="40" y1="8"  x2="18" y2="25" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="40" y1="8"  x2="62" y2="20" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="62" y1="20" x2="70" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="70" y1="44" x2="52" y2="62" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="52" y1="62" x2="26" y2="60" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="26" y1="60" x2="10" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="10" y1="44" x2="18" y2="25" stroke="#1e293b" stroke-width="1.1"/>
-
-    <!-- Cross diagonals -->
-    <line x1="18" y1="25" x2="62" y2="20" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="62" y1="20" x2="52" y2="62" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="52" y1="62" x2="10" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="10" y1="44" x2="40" y2="8"  stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="18" y1="25" x2="70" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="26" y1="60" x2="70" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-
-    <!-- Mesh nodes -->
-    <circle cx="40" cy="8"  r="2.8" fill="#1a6fd4"/>
-    <circle cx="62" cy="20" r="2.8" fill="#1a6fd4"/>
-    <circle cx="70" cy="44" r="2.8" fill="#1a6fd4"/>
-    <circle cx="52" cy="62" r="2.8" fill="#1a6fd4"/>
-    <circle cx="26" cy="60" r="2.8" fill="#1a6fd4"/>
-    <circle cx="10" cy="44" r="2.8" fill="#1a6fd4"/>
-    <circle cx="18" cy="25" r="2.8" fill="#1a6fd4"/>
-
-    <!-- Floating particles -->
-    <circle cx="72" cy="14" r="4"   fill="#1a6fd4" opacity=".85"/>
-    <circle cx="82" cy="7"  r="3"   fill="#1a6fd4" opacity=".6"/>
-    <circle cx="90" cy="2"  r="2"   fill="#1a6fd4" opacity=".4"/>
-    <circle cx="78" cy="2"  r="1.5" fill="#1a6fd4" opacity=".3"/>
+  <!-- Globe icon -->
+  <g transform="translate(6, 5)">
+    <circle cx="38" cy="38" r="30" stroke="#1e293b" stroke-width="1.8" fill="none"/>
+    <!-- Mesh lines -->
+    <line x1="38" y1="8"  x2="16" y2="24" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="38" y1="8"  x2="60" y2="20" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="60" y1="20" x2="68" y2="44" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="68" y1="44" x2="50" y2="62" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="50" y1="62" x2="24" y2="60" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="24" y1="60" x2="8"  y2="44" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="8"  y1="44" x2="16" y2="24" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="16" y1="24" x2="60" y2="20" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="60" y1="20" x2="50" y2="62" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="50" y1="62" x2="8"  y2="44" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="8"  y1="44" x2="38" y2="8"  stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="16" y1="24" x2="68" y2="44" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="24" y1="60" x2="68" y2="44" stroke="#1e293b" stroke-width="1.1"/>
+    <!-- Nodes -->
+    <circle cx="38" cy="8"  r="3" fill="#1a6fd4"/>
+    <circle cx="60" cy="20" r="3" fill="#1a6fd4"/>
+    <circle cx="68" cy="44" r="3" fill="#1a6fd4"/>
+    <circle cx="50" cy="62" r="3" fill="#1a6fd4"/>
+    <circle cx="24" cy="60" r="3" fill="#1a6fd4"/>
+    <circle cx="8"  cy="44" r="3" fill="#1a6fd4"/>
+    <circle cx="16" cy="24" r="3" fill="#1a6fd4"/>
+    <!-- Particles -->
+    <circle cx="70" cy="12" r="4.5" fill="#1a6fd4" opacity=".9"/>
+    <circle cx="81" cy="5"  r="3"   fill="#1a6fd4" opacity=".6"/>
+    <circle cx="89" cy="0"  r="2"   fill="#1a6fd4" opacity=".4"/>
+    <circle cx="77" cy="0"  r="1.5" fill="#1a6fd4" opacity=".3"/>
   </g>
 
-  <!-- YMG SOLUTIONS text -->
-  <text x="110" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="800" fill="#1e293b" letter-spacing="2" text-anchor="middle">YMG</text>
-  <text x="110" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e293b" letter-spacing="1.5" text-anchor="middle">SOLUTIONS</text>
+  <!-- Text block -->
+  <!-- YMG -->
+  <text x="118" y="34"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="18" font-weight="900"
+        fill="#1e293b" letter-spacing="3"
+        text-anchor="middle">YMG</text>
 
-  <!-- Divider line -->
-  <line x1="72" y1="63" x2="148" y2="63" stroke="#94a3b8" stroke-width="0.8"/>
+  <!-- SOLUTIONS -->
+  <text x="118" y="52"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="14" font-weight="700"
+        fill="#1e293b" letter-spacing="2"
+        text-anchor="middle">SOLUTIONS</text>
+
+  <!-- Divider -->
+  <line x1="82" y1="60" x2="154" y2="60" stroke="#cbd5e1" stroke-width="1"/>
 
   <!-- Subtitle -->
-  <text x="110" y="76" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="500" fill="#1a6fd4" letter-spacing="2.5" text-anchor="middle">INFRAESTRUCTURA · PROYECTOS</text>
+  <text x="118" y="73"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="6.2" font-weight="600"
+        fill="#475569" letter-spacing="2"
+        text-anchor="middle">INFRAESTRUCTURA · PROYECTOS</text>
+
 </svg>
