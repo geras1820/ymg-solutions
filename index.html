@@ -37,11 +37,9 @@
     }
     nav.scrolled { box-shadow: var(--shadow); }
 
-    .nav-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-    .nav-logo img.logo-icon { height: 48px; width: 48px; object-fit: contain; }
-    .nav-logo-text { display: flex; flex-direction: column; line-height: 1; }
-    .nav-logo-text strong { font-size: 1.15rem; font-weight: 800; color: var(--gray-800); letter-spacing: 1.5px; text-transform: uppercase; }
-    .nav-logo-text span { font-size: .58rem; color: var(--blue); letter-spacing: 3px; text-transform: uppercase; font-weight: 600; margin-top: 3px; }
+    .nav-logo { display: flex; align-items: center; text-decoration: none; }
+    .nav-logo img.logo-icon { height: 56px; width: auto; object-fit: contain; }
+    .nav-logo-text { display: none; }
 
     .nav-links { display: flex; gap: 32px; list-style: none; }
     .nav-links a { text-decoration: none; color: var(--gray-600); font-size: .9rem; font-weight: 500; transition: color .2s; }
@@ -106,7 +104,7 @@
     .stat span { font-size: .82rem; color: var(--gray-600); }
 
     .hero-visual { flex: 0 0 380px; display: flex; justify-content: center; }
-    .hero-visual img { width: 340px; height: 340px; object-fit: contain; border-radius: 24px; background: var(--gray-800); padding: 28px; box-shadow: 0 24px 80px rgba(26,111,212,.18); animation: float 5s ease-in-out infinite; }
+    .hero-visual img { width: 340px; height: 340px; object-fit: contain; animation: float 5s ease-in-out infinite; }
     @keyframes float { 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-18px); } }
 
     /* ─── Section base ──────────────────────────────────── */
@@ -149,7 +147,7 @@
       background: var(--gray-50); border-radius: 20px; border: 1px solid var(--gray-200);
       padding: 40px; text-align: center; box-shadow: var(--shadow);
     }
-    .about-card img { width: 200px; height: 200px; object-fit: contain; margin-bottom: 20px; background: var(--gray-800); border-radius: 20px; padding: 20px; }
+    .about-card img { width: 220px; height: auto; object-fit: contain; margin-bottom: 20px; }
     .about-card p { color: var(--gray-600); font-size: .88rem; line-height: 1.7; }
     .about-text h2 { text-align: left; margin-bottom: 18px; }
     .about-text p { color: var(--gray-600); line-height: 1.8; margin-bottom: 18px; }
@@ -276,7 +274,7 @@
 <!-- ══════════ NAVBAR ══════════ -->
 <nav id="navbar">
   <a class="nav-logo" href="#hero">
-    <img class="logo-icon" src="assets/logo ymg.png" alt="YMG Solutions" />
+    <img class="logo-icon" src="assets/logo.svg" alt="YMG Solutions" />
     <div class="nav-logo-text">
       <strong>YMG Solutions</strong>
       <span>Infraestructura &nbsp;|&nbsp; Proyectos</span>
@@ -326,7 +324,7 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="assets/logo ymg.png" alt="YMG Solutions" />
+      <img src="assets/logo.svg" alt="YMG Solutions" />
     </div>
   </div>
 </section>
@@ -382,7 +380,7 @@
   <div class="about-inner">
     <div class="about-img-wrap">
       <div class="about-card">
-        <img src="assets/logo ymg.png" alt="YMG Solutions" />
+        <img src="assets/logo.svg" alt="YMG Solutions" />
         <p>Empresa mexicana especializada en infraestructura TI y desarrollo de proyectos tecnológicos a medida para empresas de todos los tamaños.</p>
       </div>
     </div>
@@ -525,7 +523,7 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="assets/logo ymg.png" alt="YMG Solutions" style="height:52px;filter:brightness(0) invert(1);opacity:.85;" />
+        <img src="assets/logo.svg" alt="YMG Solutions" style="height:52px;" />
         <p style="margin-top:10px">Infraestructura TI y proyectos tecnológicos que impulsan el crecimiento de tu empresa.</p>
       </div>
       <div class="footer-links">
