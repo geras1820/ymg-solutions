@@ -1,60 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 90" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" fill="none">
 
-  <!-- Globe icon -->
-  <g transform="translate(6, 5)">
-    <circle cx="38" cy="38" r="30" stroke="#1e293b" stroke-width="1.8" fill="none"/>
-    <!-- Mesh lines -->
-    <line x1="38" y1="8"  x2="16" y2="24" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="38" y1="8"  x2="60" y2="20" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="60" y1="20" x2="68" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="68" y1="44" x2="50" y2="62" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="50" y1="62" x2="24" y2="60" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="24" y1="60" x2="8"  y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="8"  y1="44" x2="16" y2="24" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="16" y1="24" x2="60" y2="20" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="60" y1="20" x2="50" y2="62" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="50" y1="62" x2="8"  y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="8"  y1="44" x2="38" y2="8"  stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="16" y1="24" x2="68" y2="44" stroke="#1e293b" stroke-width="1.1"/>
-    <line x1="24" y1="60" x2="68" y2="44" stroke="#1e293b" stroke-width="1.1"/>
+  <!-- Globe icon — left side -->
+  <g transform="translate(4, 4)">
+    <circle cx="36" cy="36" r="28" stroke="#1e293b" stroke-width="1.8" fill="none"/>
+    <line x1="36" y1="8"  x2="15" y2="22" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="36" y1="8"  x2="57" y2="19" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="57" y1="19" x2="64" y2="42" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="64" y1="42" x2="48" y2="58" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="48" y1="58" x2="23" y2="57" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="23" y1="57" x2="8"  y2="42" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="8"  y1="42" x2="15" y2="22" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="15" y1="22" x2="57" y2="19" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="57" y1="19" x2="48" y2="58" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="48" y1="58" x2="8"  y2="42" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="8"  y1="42" x2="36" y2="8"  stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="15" y1="22" x2="64" y2="42" stroke="#1e293b" stroke-width="1.1"/>
+    <line x1="23" y1="57" x2="64" y2="42" stroke="#1e293b" stroke-width="1.1"/>
     <!-- Nodes -->
-    <circle cx="38" cy="8"  r="3" fill="#1a6fd4"/>
-    <circle cx="60" cy="20" r="3" fill="#1a6fd4"/>
-    <circle cx="68" cy="44" r="3" fill="#1a6fd4"/>
-    <circle cx="50" cy="62" r="3" fill="#1a6fd4"/>
-    <circle cx="24" cy="60" r="3" fill="#1a6fd4"/>
-    <circle cx="8"  cy="44" r="3" fill="#1a6fd4"/>
-    <circle cx="16" cy="24" r="3" fill="#1a6fd4"/>
-    <!-- Particles -->
-    <circle cx="70" cy="12" r="4.5" fill="#1a6fd4" opacity=".9"/>
-    <circle cx="81" cy="5"  r="3"   fill="#1a6fd4" opacity=".6"/>
-    <circle cx="89" cy="0"  r="2"   fill="#1a6fd4" opacity=".4"/>
-    <circle cx="77" cy="0"  r="1.5" fill="#1a6fd4" opacity=".3"/>
+    <circle cx="36" cy="8"  r="2.8" fill="#1a6fd4"/>
+    <circle cx="57" cy="19" r="2.8" fill="#1a6fd4"/>
+    <circle cx="64" cy="42" r="2.8" fill="#1a6fd4"/>
+    <circle cx="48" cy="58" r="2.8" fill="#1a6fd4"/>
+    <circle cx="23" cy="57" r="2.8" fill="#1a6fd4"/>
+    <circle cx="8"  cy="42" r="2.8" fill="#1a6fd4"/>
+    <circle cx="15" cy="22" r="2.8" fill="#1a6fd4"/>
+    <!-- Particles — arriba derecha, lejos del texto -->
+    <circle cx="66" cy="10" r="4" fill="#1a6fd4" opacity=".85"/>
+    <circle cx="75" cy="4"  r="2.8" fill="#1a6fd4" opacity=".6"/>
+    <circle cx="82" cy="0"  r="1.8" fill="#1a6fd4" opacity=".4"/>
   </g>
 
-  <!-- Text block -->
-  <!-- YMG -->
-  <text x="118" y="34"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="18" font-weight="900"
-        fill="#1e293b" letter-spacing="3"
-        text-anchor="middle">YMG</text>
+  <!-- Vertical divider -->
+  <line x1="92" y1="10" x2="92" y2="70" stroke="#e2e8f0" stroke-width="1.2"/>
 
-  <!-- SOLUTIONS -->
-  <text x="118" y="52"
+  <!-- Text block — right of divider -->
+  <text x="104" y="30"
         font-family="'Segoe UI', Arial, sans-serif"
-        font-size="14" font-weight="700"
-        fill="#1e293b" letter-spacing="2"
-        text-anchor="middle">SOLUTIONS</text>
+        font-size="20" font-weight="900"
+        fill="#1e293b" letter-spacing="3">YMG</text>
 
-  <!-- Divider -->
-  <line x1="82" y1="60" x2="154" y2="60" stroke="#cbd5e1" stroke-width="1"/>
-
-  <!-- Subtitle -->
-  <text x="118" y="73"
+  <text x="104" y="49"
         font-family="'Segoe UI', Arial, sans-serif"
-        font-size="6.2" font-weight="600"
-        fill="#475569" letter-spacing="2"
-        text-anchor="middle">INFRAESTRUCTURA · PROYECTOS</text>
+        font-size="15" font-weight="700"
+        fill="#1e293b" letter-spacing="2">SOLUTIONS</text>
+
+  <text x="104" y="65"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="500"
+        fill="#64748b" letter-spacing="1.8">INFRAESTRUCTURA · PROYECTOS</text>
 
 </svg>
